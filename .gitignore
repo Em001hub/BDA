@@ -1,0 +1,25 @@
+# Python environment and local caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.streamlit/
+frontend/node_modules/
+frontend/dist/
+
+# R and project artifacts
+.RData
+.Rhistory
+.Rproj.user/
+*.RData
+*.Rhistory
+
+# Generated data and visual outputs
+# NOTE: data/processed/ and data/raw/ are intentionally committed for Vercel deployment
+outputs/*.csv
+outputs/*.png
+logs/*.log
+
+node_modules/
