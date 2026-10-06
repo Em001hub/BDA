@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-const projectRoot = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
+const projectRoot = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const processedDir = path.join(projectRoot, "data", "processed");
 const rawDir = path.join(projectRoot, "data", "raw");
 
